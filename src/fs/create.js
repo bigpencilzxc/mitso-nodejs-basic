@@ -21,7 +21,7 @@ const create = async () => {
             "The file has been created and information added"
         );
     }catch (err){
-        console.log(err.message);
+        console.log(err.message)
     }
 };
 
